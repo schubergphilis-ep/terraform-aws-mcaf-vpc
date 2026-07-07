@@ -17,7 +17,7 @@ data "aws_iam_policy_document" "flow_logs" {
 module "flow_logs_role" {
   count = var.flow_logs_cloudwatch != null ? 1 : 0
 
-  source  = "schubergphilis/mcaf-role/aws"
+  source  = "schubergphilis-ep/mcaf-role/aws"
   version = "~> 0.5.3"
 
   name                  = var.flow_logs_cloudwatch.iam_role_name != null ? var.flow_logs_cloudwatch.iam_role_name : null

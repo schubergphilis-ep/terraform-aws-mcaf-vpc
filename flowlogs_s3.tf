@@ -4,7 +4,7 @@ locals {
 }
 
 module "log_bucket" {
-  source  = "schubergphilis/mcaf-s3/aws"
+  source  = "schubergphilis-ep/mcaf-s3/aws"
   version = "~> 2.0.0"
 
   count = local.create_bucket ? 1 : 0

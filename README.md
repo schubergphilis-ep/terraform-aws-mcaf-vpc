@@ -40,8 +40,8 @@ module "full_vpc" {
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_flow_logs_role"></a> [flow\_logs\_role](#module\_flow\_logs\_role) | schubergphilis/mcaf-role/aws | ~> 0.5.3 |
-| <a name="module_log_bucket"></a> [log\_bucket](#module\_log\_bucket) | schubergphilis/mcaf-s3/aws | ~> 2.0.0 |
+| <a name="module_flow_logs_role"></a> [flow\_logs\_role](#module\_flow\_logs\_role) | schubergphilis-ep/mcaf-role/aws | ~> 0.5.3 |
+| <a name="module_log_bucket"></a> [log\_bucket](#module\_log\_bucket) | schubergphilis-ep/mcaf-s3/aws | ~> 2.0.0 |
 
 ## Resources
 
