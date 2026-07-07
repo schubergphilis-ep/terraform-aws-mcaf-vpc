@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [3.1.1](https://github.com/schubergphilis-ep/terraform-aws-mcaf-vpc/compare/v3.1.0...v3.1.1) (2026-07-07)
+
+
+### 🐛 Fixes
+
+* migrate MCAF module sources ([#2](https://github.com/schubergphilis-ep/terraform-aws-mcaf-vpc/issues/2)) ([6a335d0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-vpc/commit/6a335d0f7a8717c909de8fbe122c7b3f8853ca6d))
+
 ## [3.1.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-vpc/compare/v3.0.1...v3.1.0) (2025-10-06)
 
 
@@ -123,4 +130,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.1](https://github.com/schubergphilis-ep/terraform-aws-mcaf-vpc/compare/v0.1.2...v0.1.1) (2019-07-09)
 
 ## 0.1.2 (2019-07-09)
-
